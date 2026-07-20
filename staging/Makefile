@@ -1,5 +1,5 @@
-IMAGE_NAME = ghcr.io/pgx-ml-lab/stage2025_theme2
-LOCAL_IMAGE = stage2025_theme2
+IMAGE_NAME = ghcr.io/pgx-ml-lab/stage2026_theme2
+LOCAL_IMAGE = stage2026_theme2
 TAG = latest
 
 # Default target: build multiplatform and push to ghcr

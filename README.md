@@ -2,7 +2,7 @@
 
 # Introduction
 
-This repository contains workshop materials for Theme 2 of the <a href="https://www.crmath.ca/en/activities/#/type/activity/id/4039" target="_blank">Workshop on Statistical Genetics and Genetic Epidemiology STAGE-Quebec</a>.
+This repository contains workshop materials for Theme 2 of the <a href="https://www.crmath.ca/en/activities/#/type/activity/id/4085" target="_blank">Workshop on Statistical Genetics and Genetic Epidemiology STAGE-Quebec</a>.
 
 Theme 2 focuses on **Molecular Phenotypes in Genetic Epidemiology** and will guide you through conducting and interpreting transcriptome-wide association studies (TWAS) using S-PrediXcan and TWAS/FUSION.
 
@@ -18,8 +18,8 @@ Installing S-PrediXcan and FUSION and locating all required files can be tedious
 
 We have prepared launcher scripts to start the environment:
 
-- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Windows Launcher</a>
-- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh" target="_blank">macOS / Linux Launcher</a>
+- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Windows Launcher</a>
+- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh" target="_blank">macOS / Linux Launcher</a>
 
 **Storage requirement:** ~5GB of available disk space
 
@@ -28,15 +28,15 @@ We have prepared launcher scripts to start the environment:
 ### macOS / Linux
 Open Terminal and run:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh | sh
+curl -fsSL https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh | sh
 ```
 
 ### Windows
-Download and double-click: <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Windows Launcher</a>
+Download and double-click: <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Windows Launcher</a>
 
 ### What Does the Launcher Do?
 
-The launcher creates a folder in your home directory called `STAGE2025_workshop_theme2`:
+The launcher creates a folder in your home directory called `STAGE2026_workshop_theme2`:
 - **macOS:** `/Users/[Your Username]/STAGE2025_workshop_theme2`
 - **Windows:** `C:\Users\[Your Username]\STAGE2025_workshop_theme2`
 
@@ -78,4 +78,4 @@ The computing environment contains:
 
 ### Access notebooks without Docker
 
-A non-interactive version of the materials can be found <a href="https://nbviewer.org/github/pgx-ml-lab/2025-STAGE-workshop-TWAS/tree/main/notebooks/" target="_blank">here</a>.
+A non-interactive version of the materials can be found <a href="https://nbviewer.org/github/pgx-ml-lab/2026-STAGE-workshop-TWAS/tree/main/notebooks/" target="_blank">here</a>.

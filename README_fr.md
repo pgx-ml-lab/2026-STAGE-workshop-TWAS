@@ -2,7 +2,7 @@
 
 # Introduction
 
-Ce répertoire contient le matériel d'atelier pour le Thème 2 de l'<a href="https://www.crmath.ca/en/activities/#/type/activity/id/4039" target="_blank">Atelier sur la génétique statistique et l'épidémiologie génétique STAGE-Québec</a>.
+Ce répertoire contient le matériel d'atelier pour le Thème 2 de l'<a href="https://www.crmath.ca/activites/#/type/activity/id/4085" target="_blank">Atelier sur la génétique statistique et l'épidémiologie génétique STAGE-Québec</a>.
 
 Le Thème 2 porte sur les **Phénotypes moléculaires en épidémiologie génétique** et vous guidera dans la réalisation et l'interprétation d'études d'association à l'échelle du transcriptome (TWAS) utilisant S-PrediXcan et TWAS/FUSION.
 
@@ -18,8 +18,8 @@ L'installation de S-PrediXcan et FUSION ainsi que la localisation de tous les fi
 
 Nous avons préparé des scripts de lancement pour démarrer l'environnement :
 
-- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Lanceur Windows</a>
-- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh" target="_blank">Lanceur macOS / Linux</a>
+- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Lanceur Windows</a>
+- <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh" target="_blank">Lanceur macOS / Linux</a>
 
 **Exigence de stockage :** ~5 Go d'espace disque disponible
 
@@ -28,15 +28,15 @@ Nous avons préparé des scripts de lancement pour démarrer l'environnement :
 ### macOS / Linux
 Ouvrez le Terminal et exécutez :
 ```bash
-curl -fsSL https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh | sh
+curl -fsSL https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_macOS_linux.sh | sh
 ```
 
 ### Windows
-Téléchargez et double-cliquez : <a href="https://raw.githubusercontent.com/pgx-ml-lab/2025-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Lanceur Windows</a>
+Téléchargez et double-cliquez : <a href="https://raw.githubusercontent.com/pgx-ml-lab/2026-STAGE-workshop-TWAS/refs/heads/main/run_workshop_environment_windows.bat" target="_blank">Lanceur Windows</a>
 
 ### Que fait ce lanceur ?
 
-Le lanceur crée un dossier dans votre répertoire personnel appelé `STAGE2025_workshop_theme2` :
+Le lanceur crée un dossier dans votre répertoire personnel appelé `STAGE2026_workshop_theme2` :
 - **macOS :** `/Users/[Votre nom d'utilisateur]/STAGE2025_workshop_theme2`
 - **Windows :** `C:\Users\[Votre nom d'utilisateur]\STAGE2025_workshop_theme2`
 
@@ -78,4 +78,4 @@ L'environnement informatique contient :
 
 ### Accéder aux cahiers sans Docker
 
-Une version non-interactive de l'aterlier est disponible <a href="https://nbviewer.org/github/pgx-ml-lab/2025-STAGE-workshop-TWAS/tree/main/notebooks/" target="_blank">ici</a>.
+Une version non-interactive de l'aterlier est disponible <a href="https://nbviewer.org/github/pgx-ml-lab/2026-STAGE-workshop-TWAS/tree/main/notebooks/" target="_blank">ici</a>.
