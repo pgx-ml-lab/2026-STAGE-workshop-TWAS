@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-local_dir="${HOME}/STAGE2025_workshop_theme2"
+local_dir="${HOME}/STAGE2026_workshop_theme2"
 mkdir -p $local_dir
 
 docker run -i --rm \

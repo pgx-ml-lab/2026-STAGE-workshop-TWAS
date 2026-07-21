@@ -1,6 +1,6 @@
 @echo off
 
-set local_dir=%USERPROFILE%\STAGE2025_workshop_theme2
+set local_dir=%USERPROFILE%\STAGE2026_workshop_theme2
 if not exist "%local_dir%" mkdir "%local_dir%"
 
 docker run -ti --rm ^
