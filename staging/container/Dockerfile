@@ -66,8 +66,9 @@ RUN git clone --depth=1 https://github.com/hakyimlab/MetaXcan.git /workshop/soft
 ENV PATH="/workshop/software/MetaXcan/software:$PATH"
 
 # Get TWAS FUSION software
-RUN wget https://github.com/gusevlab/fusion_twas/archive/master.zip && \
-    unzip master.zip && rm master.zip && mv fusion_twas-master /workshop/software/FUSION
+RUN wget https://github.com/gusevlab/fusion_twas/archive/9346c1222bffbb34499fa7a8e23c1b701b55cb05.zip && \
+    mv 9346c1222bffbb34499fa7a8e23c1b701b55cb05.zip master.zip && \
+    unzip master.zip && rm master.zip && mv fusion_twas-9346c1222bffbb34499fa7a8e23c1b701b55cb05 /workshop/software/FUSION
 
 # Configure jupyterlab
 RUN pip install jupyterlab bash_kernel
@@ -77,7 +78,7 @@ RUN python -m bash_kernel.install
 RUN pip install jupyterlab-spreadsheet
 
 RUN Rscript -e "install.packages('IRkernel'); IRkernel::installspec()"
-RUN Rscript -e "install.packages(c('ggplot2', 'dplyr', 'scales'))"
+RUN Rscript -e "install.packages(c('ggplot2', 'dplyr', 'scales', 'here'))"
 
 # Copy workshop materials
 COPY data /workshop/data
