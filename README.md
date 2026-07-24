@@ -37,8 +37,8 @@ Download and double-click: <a href="https://raw.githubusercontent.com/pgx-ml-lab
 ### What Does the Launcher Do?
 
 The launcher creates a folder in your home directory called `STAGE2026_workshop_theme2`:
-- **macOS:** `/Users/[Your Username]/STAGE2025_workshop_theme2`
-- **Windows:** `C:\Users\[Your Username]\STAGE2025_workshop_theme2`
+- **macOS:** `/Users/[Your Username]/STAGE2026_workshop_theme2`
+- **Windows:** `C:\Users\[Your Username]\STAGE2026_workshop_theme2`
 
 **Important:** All persistent files must be created in this directory. Files created elsewhere will be lost when the container stops.
 
